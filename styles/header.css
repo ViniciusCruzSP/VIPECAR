@@ -1,0 +1,28 @@
+
+.cabeçalho{
+    background-color: var(--cor-cabecalho);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cabeçalho__imagem{
+    width: 7%;
+}
+
+.cabeçalho-container__botões{
+    display: flex;
+    list-style-type: none;
+    margin-right: 3em;
+}
+
+.botão__texto{
+    margin: 2em;
+    color: var(--cor-branca);
+    font-family: var(--fonte-principal);
+    font-size: 24px;
+}
+
+.botão__texto:hover{
+    color: var(--cor-primaria);
+}
